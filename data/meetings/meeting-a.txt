@@ -1,0 +1,4 @@
+Client: Our customers cannot find products quickly. We want better search and filters.
+Consultant: Which filters are most important?
+Client: Product type and price range. The search must also work well on mobile.
+Client: We would like the first version ready in six weeks.

@@ -1,0 +1,4 @@
+Client: We no longer need the mobile filter in the first release.
+Client: Keep product type filtering, but add brand filtering as well.
+Client: We also want an analytics dashboard for search usage.
+Client: The target delivery date is now four weeks instead of six.

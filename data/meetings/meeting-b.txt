@@ -1,0 +1,4 @@
+Client: We want to improve checkout and connect a payment provider.
+Consultant: What should happen after a successful payment?
+Client: The customer should receive an order notification and our team needs an order record.
+Client: We still need to confirm whether the provider supports our country and webhook events.
