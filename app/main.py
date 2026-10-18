@@ -12,7 +12,12 @@ app = FastAPI(title="AI Tech Consultant", version="0.1.0")
 configured_origins = [origin.strip() for origin in os.getenv("CORS_ORIGINS", "").split(",") if origin.strip()]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", *configured_origins],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://atlas-ai-tech-consultant.vercel.app",
+        *configured_origins,
+    ],
     allow_methods=["GET", "POST"],
     allow_headers=["Content-Type"],
 )
